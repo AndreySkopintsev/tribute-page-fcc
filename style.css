@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+    margin: 30px;
+    border: 1px solid white;
+}
+
+#main{
+    border: 1px solid red;
+    height: 100vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Limelight', cursive;
+}
+
+#img-div{
+    font-family: 'Limelight', cursive;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://www.artofthetitle.com/assets/sm/upload/zp/xu/iy/zw/df.jpg?k=d079ece891);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: left;
+}
+
+#title{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img-div > img{
+    border-radius: 5px;
+}
+
+#tribute-info{
+    text-align-last: left;
+    font-weight: 100;
+    font-size: 18px;
+    width: 55%;
+}
+
+#tribute-info > p > img {
+    height: 200px;
+    float: right;
+    clear: right;
+}
